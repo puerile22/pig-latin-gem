@@ -1,4 +1,4 @@
-require "./pig_latin/version"
+require "./pig_latin/version.rb"
 
 module PigLatin
   class Pig
@@ -31,3 +31,5 @@ module PigLatin
     end
   end
 end
+str='glove'
+p PigLatin::Pig.trans(str)
